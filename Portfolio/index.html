@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <span class="dot-logo" aria-hidden="true"></span>
+        <span id="siteName">Your Name</span>
+      </div>
+      <nav class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">
+          <svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 1 0 21 12.79z" fill="currentColor"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h1 id="name">Your Name</h1>
+        <p id="tagline" class="muted">Short tagline goes here.</p>
+        <div id="links" class="links"></div>
+      </section>
+
+      <section class="timeline" aria-label="Timeline">
+        <div class="timeline-rail" aria-hidden="true"></div>
+        <div id="timelineItems" class="timeline-items"></div>
+      </section>
+    </main>
+
+    <button id="toLatest" class="fab" aria-label="Jump to latest" title="Jump to latest">Latest ↓</button>
+
+    <noscript>
+      <div class="noscript">This site works best with JavaScript enabled.</div>
+    </noscript>
+
+    <script type="module" src="script.js"></script>
+  </body>
+  </html>
+
+
