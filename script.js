@@ -57,8 +57,8 @@ function render(data) {
 
   if (data.name) {
     nameEl.textContent = data.name;
-    siteName.textContent = data.name;
-    document.title = `${data.name} — Portfolio`;
+    siteName.textContent = data.siteName;
+    document.title = `${data.name} — ${data.siteName}`;
   }
   if (data.tagline) taglineEl.textContent = data.tagline;
   if (Array.isArray(data.links)) {
