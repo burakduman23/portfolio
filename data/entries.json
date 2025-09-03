@@ -17,17 +17,25 @@
       ]
     },
     {
-      "date": "2025-01-15",
+      "date": "2025-06-15",
       "title": "Started FIXXit",
       "description": "Founded FIXXit, a two-sided marketplace connecting people with trusted contractors across home services and events — from painting and security to DJing and hairstyling. Built listings, profiles, search, and booking flows to streamline getting jobs posted and done.",
       "tags": ["startup", "marketplace", "product"],
       "images": ["landingPage.png", "login.png", "contractorList.png"]
     },
     {
-      "date": "2025-02-01",
+      "date": "2025-08-01",
       "title": "Shipped Portfolio v1",
       "description": "This site. Bottom-up timeline, easy to extend via JSON.",
       "tags": ["portfolio"]
+    },
+    {
+      "date": "2025-09-15",
+      "title": "Started socialcase",
+      "description": "Started socialcase, a platform that allows you to showcase your skills and connect with others. Still in development, but can see what my demo account looks like!",
+      "tags": ["startup", "marketplace", "product", "socialcase"],
+      "images": ["socialcase1.png"],
+      "link": { "label": "Demo", "url": "https://socialcase.io" }
     }
   ]
 }
